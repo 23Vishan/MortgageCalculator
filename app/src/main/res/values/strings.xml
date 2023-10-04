@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- fragment names -->
+    <string name="first_fragment_label">Mortgage Payment Calculator</string>
+    <string name="second_fragment_label">Result</string>
+    <string name="third_fragment_label">Information</string>
+
+    <!-- titles on bottom nav bar -->
+    <string name="icon_1">Home</string>
+    <string name="icon_2">Info</string>
+
+    <!-- fab descriptions -->
+    <string name="fab_first">Calculate</string>
+    <string name="fab_second">Go Back</string>
+
+    <!-- headings -->
+    <string name="h1">Mortgage Principal Amount</string>
+    <string name="h2">Interest Rate</string>
+    <string name="h3">Amortization Period</string>
+    <string name="h4">Payment Frequency</string>
+
+    <!-- drop down menu -->
+    <string-array name="payment_frequency">
+        <item>Weekly</item>
+        <item>Bi-Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <!-- argument names -->
+    <string name="a1">principal</string>
+    <string name="a2">interest</string>
+    <string name="a3">period</string>
+    <string name="a4">frequency</string>
+
+    <!-- text for second fragment -->
+    <string name="f2_emi">$000,000.00</string>
+    <string name="f2_desc">Monthly</string>
+    <string name="f2_h1">Total Payment</string>
+    <string name="f2_h2">Total Interest</string>
+
+    <!-- text for third fragment -->
+    <string name="f3_button">More Information</string>
+    <string name="f3_desc">Equated Monthly Installments (EMIs) are fixed monthly payments
+        that borrowers make to lenders to pay down their loans. Each EMI is composed of an interest
+        and a principal component, with each amount determined based on the outstanding loan principal,
+        term, and interest rate. \n\nEMIs are used for many types of loans, such as student loans, auto
+        loans, and home mortgages. The borrower will be able to completely pay off the loan at the end
+        of the loan term if EMIs are made as scheduled. \n\nCompared to variable payment plans, which allow
+        borrowers to make payments at their discretion based on their periodic incomes, EMIs have a clear
+        repayment schedule and term to maturity.</string>
+</resources>
